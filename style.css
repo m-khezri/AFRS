@@ -10,21 +10,35 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .search-container{
-  display: flex;
+  background-image: url("./src/assets/bg-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: lightslategray;
+  align-items: center; */
   height: 600px;
   width: 100%;
 }
 
-.search-box{
-margin: 0 50%;
-  height: 300px;
+.header-title{
+  position: relative;
+  color: #fff;
+  top:400px;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
 
-  background-color: lightyellow;
-  padding: 2%;
-  margin: 2%;
+}
+
+.search-box{
+max-width: 900px;
+  height: auto;
+  background-color: #fff;
+  opacity: 0.9;
+  position: relative;
+  top: 430px;
+  margin: auto;
+  padding-top: 2%;
 }
 
 footer{
