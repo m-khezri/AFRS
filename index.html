@@ -5,13 +5,12 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-  <title>Hello, world!</title>
+  <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+  <title>Affcars</title>
 </head>
 
 <body>
@@ -50,22 +49,50 @@
 
     <main id="searching">
       <div class="search-container">
-        <div class="search-box">
-          <p class="m-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum.
-          </p>
+        <div class="header-title">
+          <h1>Find the best car discounts in your area</h1>
+        </div>
+        <div class="search-box container rounded shadow">
+          <form class="row justify-content-center">
+            <div class="form-group col-md-2">
+              <select id="inputState" class="form-control">
+                <option selected>All Makes</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <select id="inputState" class="form-control">
+                <option selected>All Models</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+              <select id="inputState" class="form-control">
+                <option selected>Any</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="mt-2">
+              <p>of</p>
+            </div>
+            <div class="form-group col-md-2">
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+
+            <div class="col-md-2">
+              <button type="submit" class="btn btn-warning btn-block">FIND</button>
+            </div>
+          </form>
         </div>
       </div>
     </main>
 
-    <footer id='footer' class="row w-100 p-3">
+
+
+
+
+
+    <!-- <footer id='footer' class="row w-100 p-3">
       <p class="col-3 m-2">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -87,7 +114,7 @@
         pariatur.
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-    </footer>
+    </footer> -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
