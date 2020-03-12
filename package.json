@@ -38,6 +38,8 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
-    "jquery": "^3.4.1"
+    "get-google-fonts": "^1.2.2",
+    "jquery": "^3.4.1",
+    "material-design-icons": "^3.0.1"
   }
 }
