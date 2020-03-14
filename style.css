@@ -53,6 +53,12 @@ background-color: #D93D4A;
   min-width: 255px !important;
 }
 
+
+.body-style-section{
+  height: 20vh;
+  background-color: #cfd8dc ;
+}
+
 footer{
   height: 200px;
   background-color: darkseagreen;
