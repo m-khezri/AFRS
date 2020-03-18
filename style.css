@@ -54,41 +54,6 @@ background-color: #D93D4A;
 }
 
 
-.body-style-section{
-  height: 20vh;
-  background-color: #cfd8dc ;
-
-}
-
-.body-style-container{
-  position: relative;
-  max-width: 300px;
-  margin-bottom: 1%;
-}
-
-.sedan-img,.suv_img,.convertible_img,.coupe_img,.minivan_img,.ev_img,.hatchback_img,.luxury_img,.sports_img,.cargo_img,.truck_img,.commercial_img {
-  width: 70%;
-  display: block;
-}
-
-.overlay{
-  position: absolute; 
-  bottom: 0; 
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1; 
-  width: 63%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 1em;
-  padding: 2%;
-  text-align: center;
-}
-
-.body-style-container:hover .overlay {
-  opacity: 1;
-}
 
 
 
