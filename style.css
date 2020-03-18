@@ -54,7 +54,10 @@ background-color: #D93D4A;
 }
 
 
-
+.car_img{
+  max-width: 250px;
+  margin-bottom: 5%;
+}
 
 
 
